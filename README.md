@@ -1,2 +1,2 @@
-# art-compass.uk
+# artcompass.uk
 echo hello world

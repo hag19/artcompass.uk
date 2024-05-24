@@ -1,2 +1,1 @@
-# artcompass.uk
-echo hello world
+ok

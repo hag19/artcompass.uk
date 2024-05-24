@@ -1,0 +1,36 @@
+Hola            <html>
+            <body>
+                <div><br>Hola mundo<br><br>Posted 2024/04/28 - 10:50:55</div>
+                <div>
+                    ------------------------
+                </div>
+            </body>
+        </html>Bonjour            <html>
+            <body>
+                <div><br>Bonjour le monde<br><br>Posted 2024/04/28 - 10:51:11</div>
+                <div>
+                    ------------------------
+                </div>
+            </body>
+        </html>Une nouvelle écrasante...            <html>
+            <body>
+                <div><br>Aujourd'hui, nous accueillons Thierry parmi les cieux. Il est mort noyé dans son bol de céréales ce matin même. Ses funérailles ne seront pas prononcées. Les services de nos guides seront interrompus pendant une demi-journée. Merci de votre attention.<br><br>Posted 2024/04/28 - 10:59:39</div>
+                <div>
+                    ------------------------
+                </div>
+            </body>
+        </html>Une nouvelle éclatante!            <html>
+            <body>
+                <div><br>Ah non en fait il est vivant! Cool. Les tickets ne seront pas remboursés. Merci.<br><br>Posted 2024/04/29 - 12:01:35</div>
+                <div>
+                    ------------------------
+                </div>
+            </body>
+        </html>Bonjour            <html>
+            <body>
+                <div><br>On arrête nos services.<br><br>Posted 2024/05/23 - 08:31:45</div>
+                <div>
+                    ------------------------
+                </div>
+            </body>
+        </html>

@@ -1,0 +1,659 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('../font/Karla-Bold.woff2') format('woff2'),
+      url('../font/Karla-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('../font/Karla-Italic.woff2') format('woff2'),
+      url('../font/Karla-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('../font/Karla-Regular.woff2') format('woff2'),
+      url('../font/Karla-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('../font/Karla-BoldItalic.woff2') format('woff2'),
+      url('../font/Karla-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FingerPaint';
+  src: url('../font/FingerPaint-Regular.woff') format('woff'),
+      url('../font/FingerPaint-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Karla";
+  font-size: 1rem;
+  transition:0.3s;
+}
+
+::selection {
+  background: rgb(0 0 0 / 15%);
+}
+
+::-webkit-scrollbar {
+  width:10px;
+  height:10px
+}
+
+::-webkit-scrollbar-track {
+  background:#eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #526e7f;
+  border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #526e7f;
+}
+
+header {
+  margin: auto;
+  background-color: #74949F;
+  color:white;
+  top: 0;
+  left:0;
+}
+
+.act_nav {
+  list-style-type: none;
+  margin:0;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size:1.3rem;
+}
+
+.reserv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 10px 10px #a1a1a1;
+  background-image: url(../images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reserv h1 {
+  margin-top:-2rem;
+  text-align: center;
+  padding-top: 17rem;
+  padding-bottom: 35rem;
+  font-size:2.5rem;
+}
+
+.a_reserv:hover {
+  color:#fffad0;
+  font-size:3.5rem;
+  transition:0.3s;
+  font-family: "FingerPaint";
+}
+
+.a_reserv {
+  transition:0.3s;
+  text-decoration:none;
+  color:white;
+  font-size:3rem;
+  font-family: "FingerPaint";
+}
+
+.offers {
+  text-align: center;
+  color:black;
+  font-size:2.5rem;
+  margin-top:4rem;
+  font-weight:bold;
+  margin-bottom:-5rem;
+}
+
+.popular {
+  text-align: center;
+  color:black;
+  font-size:2.5rem;
+  margin-top:3.5rem;
+  font-weight:bold;
+  font-family:'FingerPaint', sans-serif;
+}
+
+.tourEverything {
+  position:relative;
+  left:0;
+  background-color:#74949F;
+  line-height:2rem;
+  padding:2rem;
+  margin-left:-2.5rem;
+  width:101.1%;
+  margin-top:2rem;
+  color:white;
+  box-shadow: 0px 5px 5px #a1a1a1;
+}
+
+.tourVisit {
+ font-size:1.2rem;
+ font-weight:bold;
+}
+
+.tourParameters {
+  display:flex;
+  margin-left:34%;
+}
+
+.tourAmount {
+  margin-left:1rem;
+  margin-right:1rem;
+  width:9rem;
+}
+
+.tourTotal {
+  margin-right:1rem;
+}
+
+.tourChoice {
+  display:flex;
+  margin-left:43%;
+}
+
+.tourPlaces {
+  margin-left:1rem;
+}
+
+.bookTour {
+  text-align: center;
+  color:black;
+  font-size:2.5rem;
+  margin-top:3.5rem;
+  font-weight:bold;
+  margin-bottom:-6rem;
+  font-family:'FingerPaint', sans-serif;
+  margin-bottom:0.1rem;
+}
+
+.visitSpacing {
+  padding-top:0.3rem;
+}
+
+.reviewsSection {
+  text-align: left;
+  font-size: 2rem;
+  font-family: "FingerPaint", sans-serif;
+  margin-left: 8rem;
+  margin-bottom:0.5rem;
+}
+
+.review {
+  text-align:left;
+  padding:0.5rem;
+  padding-bottom:1.5rem;
+}
+
+.reviews {
+  max-height:20rem;
+  overflow:auto;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-bottom:3rem;
+}
+
+.reviewsBrief {
+  max-height:15rem;
+  overflow:auto;
+  margin-bottom:-1rem;
+}
+
+.reviewDate {
+  font-size:0.75rem;
+  color:gray;
+}
+
+.reviewComment {
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.reviewName {
+  margin-right: 0.5rem;
+}
+
+.reviewRating {
+  display:flex;
+}
+
+.stars {
+  color:#ffd700;
+  font-size:1.4rem;
+  margin-top:-0.45rem;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+header, body {
+  margin: auto;
+}
+
+.description{
+  padding-left: 7rem;
+  padding-bottom: 3rem;
+}
+
+.button{
+  padding: 3rem;
+}
+
+.best_sellers_group {
+  margin-bottom:6rem;
+}
+
+.best_sellers {
+  display:flex;
+  justify-content:center;
+  padding: 6rem;
+}
+
+.best_sellers img {
+  transition:0.3s;
+  margin:1rem;
+  border-radius:10px;
+}
+
+.best_sellers img:hover {
+  transition:0.3s;
+  width: 505px;
+  height: 310px;
+}
+
+.best_sellers a {
+  text-decoration:none;
+}
+
+
+.best_sellers a figcaption {
+  font-family:"Fingerpaint";
+  color:white;
+  font-size:1.8rem;
+  margin-left:4rem;
+  margin-top:-16rem;
+}
+
+.ratings {
+  margin:8rem;
+  margin-top:5rem;
+}
+
+.odd {
+  background-color:#F6F6F6;
+  margin-bottom:-1rem;
+}
+
+.even {
+  background-color:#EDEDED;
+  margin-bottom:-1rem;
+}
+
+.newsletter{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  padding:5rem;
+  background-color: #74949F;
+}
+
+.newsletter h1{
+  font-size: 2.5rem;
+  color: white;
+  font-family:'FingerPaint', sans-serif;
+}
+
+.loginButton {
+  background-color: #526e7f;
+  border: none;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.imgt {
+  border-radius: 20px;
+}
+
+.subscribe {
+  background-color: #526e7f;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0 30px 30px 0;
+}
+
+.inputText {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding:1rem;
+}
+
+input[type=password] {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding:1rem;
+}
+
+.emailInput {
+  border: none;
+  padding: 1rem;
+  margin-right: -2rem;
+  padding-left: 2rem;
+  border-radius: 30px 0 0 30px;
+  background-color: white;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.emailInput {
+  border: none;
+  padding: 1rem;
+  margin-right: -6.9rem;
+  padding-left: 2rem;
+  padding-right: 7rem;
+  border-radius: 30px;
+  background-color: white;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.tourPage {
+  text-decoration: none;
+  color: black;
+  font-size: 5rem;
+}
+
+.tourPage img:hover {
+  height: 350px;
+  width: 545px;
+  transition: 0.2s;
+}
+
+.tourPageGroup {
+  padding-top:2.5rem;
+}
+
+.tourPage img{
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+.tourPage figcaption{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  margin-top: -0.5rem;
+}
+
+input, select, textarea{
+  color: black;
+}
+
+textarea:focus, input:focus {
+  color: black;
+}
+
+footer {
+  background-color: #74949F;
+  color:white;
+}
+
+.dark_mode {
+  background-color: #74949F;
+  border: none;
+}
+
+.emptyTitle {
+  font-size:3rem;
+  font-family:"FingerPaint", sans-serif;
+  font-weight:bold;
+  margin-top:9rem;
+}
+
+.emptySubtitle {
+  font-size:1.4rem;
+  font-family:"Karla", sans-serif;
+  margin-bottom:4rem;
+}
+
+.emptyPage a {
+  color:white;
+  font-size: 1rem;
+  font-family:"Karla", sans-serif;
+  text-decoration:none;
+  padding:1rem;
+  background-color:#74949F;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.emptyPage a:hover {
+  font-size: 1.4rem;
+  transition:0.3s;
+  color: #fffad0;
+}
+
+.emptyPage {
+  margin-top: 1.5rem;
+}
+
+.emptyButtons {
+  margin-top: 3rem;
+}
+
+.emptyOr {
+  font-family:"FingerPaint", sans-serif;
+  font-weight:bold;
+  font-size:1.2rem;
+}
+
+.article {
+  padding:1rem;
+  padding-bottom:3rem;
+  padding-top:2rem;
+}
+
+.articleLine {
+  display:flex;
+  overflow:auto;
+  margin-left:2rem;
+  margin-top:3rem;
+  margin-right:2rem;
+  overflow-y: hidden;
+}
+
+.tourName {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family:"FingerPaint";
+  font-weight:normal;
+  margin-top:-0.2rem;
+}
+
+.searchBar {
+  border: 3px solid #74949F;
+  border-radius: 50px;
+  padding:1rem;
+  margin-left:-1.5rem;
+  padding-left:1.5rem;
+  padding-right:4.5rem;
+}
+
+.blog {
+  margin-top:2rem;
+}
+
+.comment {
+  display:flex;
+}
+
+.commentWrite {
+  border-radius: 20px 0px 0px 20px;
+  padding:0.3rem;
+  padding-left:0.8rem;
+}
+
+.commentPost {
+  border-radius: 0px 20px 20px 0px;
+  background-color:#74949F;
+  color:white;
+}
+
+.blogDate {
+  font-size:0.8rem;
+  color:#555;
+}
+
+.checkout {
+  background-color:#74949F;
+  padding:0.5rem;
+}
+
+.checkout input {
+  height:2rem;
+  border-radius:5px;
+  border:none;
+  padding:0.2rem;
+  margin:0.2rem;
+}
+
+.checkoutName {
+  text-align:center;
+  padding-top:2rem;
+}
+
+.checkoutCoords {
+  text-align:center;
+}
+
+.checkoutConfirm {
+  text-align:center;
+  margin-bottom:10.3rem;
+  padding-bottom:2rem;
+  box-shadow: 0px 10px 10px #a1a1a1;
+}
+
+.checkoutConfirm input {
+  background-color:#526e7f;
+  color:white;
+  width:9rem;
+  border-radius:15px;
+}
+
+.checkoutTitle {
+  margin-top:6.1rem;
+  font-size:2rem;
+  font-family:"FingerPaint", sans-serif;
+  font-weight:bold;
+  text-align:center;
+}
+
+.checkoutButton {
+  margin-top:3rem;
+  color:white;
+  background-color:#526e7f;
+  border-radius:50px;
+  padding:0.8rem;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  font-weight:bold;
+  margin-bottom:3rem;
+  border:none;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color:red;
+  border-radius: 2rem;
+  border-color: red;
+}
+
+.end{
+  align-self: end;
+}
+
+@media screen and (max-width: 1000px){
+  html{
+      font-size: 20px;
+      display: flex;
+  }
+  
+  .mobileheader{
+      font-size: 20rem;
+  }
+  
+}
+#map { height: 180px; }
+
+.tourIframe {
+  margin-top:3rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown-content{
+  position: absolute;
+  margin:10px;
+  border: solid thin;
+  padding: 10px;
+}
+
+.hide{
+  display:none;
+}

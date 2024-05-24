@@ -1,0 +1,176 @@
+id_captcha	questions	goodAnswer
+1	who is the president of USA?	asshole
+2	how many legs does a cat have?	4
+3	what is the capital of greece?	Athens
+----------------------
+title	description	image	date	id	likes	id_user
+join	Join us as we journey through the ruins of an ancient civilization, unraveling the mysteries of the past.	ancient_ruins.jpg	2024-04-09	1	0	4
+A Culinary Adventure in Italy	Experience the flavors of Italy as we explore the country's rich culinary traditions and indulge in delicious Italian cuisine.	culinary_adventure_italy.jpg	2024-04-10	3	0	4
+Hiking the Inca Trail	Embark on a thrilling journey along the legendary Inca Trail, trekking through breathtaking landscapes and ancient ruins.	inca_trail.jpg	2024-04-11	4	0	4
+Sailing the Greek Islands	Set sail on a luxurious yacht and explore the enchanting Greek Islands, with their crystal-clear waters and picturesque villages.	greek_islands.jpg	2024-04-13	5	0	4
+Photography Tips for Beginners	Learn the basics of photography and improve your skills with these essential tips for beginners.	photography_tips.jpg	2024-04-14	6	0	4
+Road Trip Across America	Embark on the ultimate road trip adventure across the United States, exploring iconic landmarks and hidden gems along the way.	road_trip_america.jpg	2024-04-15	7	0	4
+Yoga Retreat in Bali	Escape to the tranquil paradise of Bali and rejuvenate your mind, body, and soul with daily yoga sessions and holistic wellness activities.	yoga_retreat_bali.jpg	2024-04-16	8	0	4
+Exploring the Great Barrier Reef	Dive into the vibrant underwater world of the Great Barrier Reef, home to an astonishing array of marine life and coral formations.	great_barrier_reef.jpg	2024-04-17	9	0	4
+Safari Adventure in Africa	Embark on a thrilling safari adventure in Africa, where you'll encounter majestic wildlife and witness breathtaking landscapes.	safari_africa.jpg	2024-04-18	10	0	4
+The Evolution of Artificial Intelligence: From Fiction to Reality	In the vast landscape of technological advancement, few fields have captured the imagination of humanity quite like artificial intelligence (AI). From its humble beginnings as a concept in science fiction literature to its current status as a transformative force in nearly every aspect of our lives, the journey of AI has been nothing short of extraordinary.  The Dawn of a Concept  The roots of AI can be traced back to ancient myths and legends, where stories of sentient beings crafted from clay or metal captivated the human imagination. However, it wasn't until the 20th century that AI began to take shape as a formal field of study.  In 1956, a group of researchers convened at Dartmouth College for a historic workshop that marked the birth of AI as an academic discipline. Led by luminaries such as John McCarthy, Marvin Minsky, Allen Newell, and Herbert A. Simon, the workshop laid the groundwork for the exploration of intelligent machines.  The Early Years: From Logic to Learning  During the early years of AI research, the prevailing approach focused on symbolic reasoning and logic-based systems. Researchers sought to develop algorithms capable of mimicking human thought processes, reasoning, and problem-solving abilities.  One of the seminal achievements of this era was the development of expert systems, which utilized rules and logical inference to emulate human expertise in specific domains. These systems found applications in fields such as medicine, finance, and engineering, demonstrating the potential of AI to augment human decision-making.  The Rise of Machine Learning  As computing power increased and data became more abundant, a paradigm shift occurred within the field of AI. Researchers began to explore alternative approaches that eschewed explicit programming in favor of learning from data.  Machine learning emerged as a dominant paradigm, fueled by breakthroughs in statistical modeling, neural networks, and optimization algorithms. Techniques such as supervised learning, unsupervised learning, and reinforcement learning enabled machines to extract patterns from data, recognize complex relationships, and make predictions with unprecedented accuracy.  AI in Practice: From Virtual Assistants to Autonomous Vehicles  Today, AI has permeated every facet of modern society, shaping the way we work, communicate, and interact with the world around us. From virtual assistants like Siri and Alexa to recommendation systems powering e-commerce platforms, AI-driven technologies have become ubiquitous in our daily lives.  In fields such as healthcare, AI is revolutionizing diagnosis, treatment, and drug discovery, offering new hope for patients and clinicians alike. In finance, AI-powered algorithms analyze vast datasets to detect fraud, optimize investment strategies, and mitigate risk. In transportation, autonomous vehicles promise to reshape the way we travel, offering safer, more efficient alternatives to traditional modes of transportation.  Challenges and Ethical Considerations  Despite its transformative potential, AI is not without its challenges and ethical considerations. Concerns about bias in algorithms, data privacy, job displacement, and the existential risks posed by superintelligent systems loom large in the public discourse.  Addressing these challenges will require a concerted effort from researchers, policymakers, industry leaders, and society as a whole. As we continue to push the boundaries of what is possible with AI, it is imperative that we do so responsibly, ethically, and with a keen awareness of the potential risks and consequences.  Looking Ahead: The Future of AI  As we stand on the cusp of a new era of technological innovation, the future of AI holds boundless possibilities. Advances in areas such as quantum computing, natural language processing, and robotics promise to unlock new frontiers in AI research and applications.  From the exploration of distant planets to the quest for artificial consciousness, the journey of AI is far from over. As we embark on this journey, let us remember the lessons of the past, embrace the challenges of the present, and dare to imagine a future where intelligent machines and humanity coexist in harmony, shaping a world that is smarter, safer, and more equitable for all.	NULL	NULL	11	1	4
+----------------------
+id	id_blog	id_user	comment	created_at	likes
+3	1	4	hahahah$	2024-05-06 09:57:16	NULL
+4	1	4	mioooooooo	2024-05-06 10:14:05	NULL
+5	1	9	mioooooooooojojojzodjojsa	2024-05-06 14:54:48	NULL
+6	1	9	thx	2024-05-06 14:55:31	NULL
+7	1	9	azd	2024-05-06 15:14:32	NULL
+8	1	9	azd	2024-05-06 15:15:04	NULL
+9	1	9	adzdz	2024-05-07 11:46:38	NULL
+10	1	9	adzdz	2024-05-07 11:48:07	NULL
+11	1	9	adzdz	2024-05-07 11:48:20	NULL
+12	1	9	adzdz	2024-05-07 11:48:51	NULL
+13	1	9	zadz	2024-05-07 11:48:58	NULL
+14	1	9	adz	2024-05-07 11:49:18	NULL
+15	1	9	azdaz	2024-05-07 15:22:59	NULL
+16	1	9	mioooooooooo, 	2024-05-08 11:33:39	NULL
+17	4	9	azdaz	2024-05-08 18:27:33	NULL
+18	4	9	azdz	2024-05-08 18:27:36	NULL
+19	4	9	azd	2024-05-09 11:04:13	NULL
+20	4	9	azdazd	2024-05-09 11:04:21	NULL
+21	4	9	zazdz	2024-05-09 11:04:24	NULL
+22	4	9	azdza	2024-05-09 11:10:30	NULL
+23	4	9	acscq	2024-05-09 11:10:36	NULL
+24	4	9	azd	2024-05-09 11:10:52	NULL
+25	4	9	azdazd	2024-05-09 11:12:39	NULL
+26	4	9	azdazd	2024-05-09 11:12:42	NULL
+27	4	9	azdazdz	2024-05-09 11:12:45	NULL
+28	10	9	azdaz	2024-05-09 11:13:02	NULL
+29	1	9	azdz	2024-05-10 21:22:05	NULL
+----------------------
+id	id_post	id_user	comment	created_at	likes
+23	14	4	azdza	2024-05-20 19:18:06	NULL
+24	14	4	azdz	2024-05-20 19:18:12	NULL
+25	13	4	zdaz	2024-05-20 19:18:14	NULL
+26	14	4	ahjzdz	2024-05-20 19:21:31	NULL
+27	14	4	dzqdz	2024-05-20 19:21:44	NULL
+----------------------
+id	id_user1	id_user2	created_at
+1	9	9	2024-05-16 16:12:09
+2	9	4	2024-05-16 16:20:36
+4	9	7	2024-05-16 16:27:03
+5	9	5	2024-05-16 22:19:51
+6	4	4	2024-05-19 18:30:19
+7	4	5	2024-05-19 19:10:36
+8	4	7	2024-05-19 19:27:04
+----------------------
+id_user_m	id_user_f	created_at	id
+7	9	2024-05-16 16:25:38	22
+5	9	2024-05-16 22:20:19	23
+9	9	2024-05-18 19:37:28	24
+4	4	2024-05-19 18:30:28	26
+5	4	2024-05-19 19:11:20	28
+7	4	2024-05-19 19:26:58	29
+4	9	2024-05-19 19:31:51	30
+9	4	2024-05-20 18:41:00	31
+----------------------
+id	id_user	id_b
+44	9	1
+94	4	11
+----------------------
+----------------------
+----------------------
+----------------------
+id	id_dm	id_user	message	sent_at
+1	2	9	azdz	2024-05-16 22:05:24
+2	2	9	azdzdz	2024-05-16 22:05:31
+3	2	9	azdazdzd	2024-05-16 22:05:35
+4	2	9	azdaz	2024-05-16 22:10:30
+5	4	9	dazd	2024-05-16 22:10:35
+6	5	9	send friend request	2024-05-16 22:19:58
+7	5	9	hey	2024-05-16 22:20:02
+8	5	9	listen we are friend now even here	2024-05-16 22:20:13
+9	1	9	ha	2024-05-18 19:34:52
+10	1	9	ok	2024-05-18 19:34:54
+11	2	4	Hi how are you	2024-05-19 18:30:39
+12	2	4	Wait am I talking to myself	2024-05-19 18:30:46
+13	2	4	Huh.	2024-05-19 18:30:50
+14	2	9	ahahah	2024-05-19 19:32:15
+15	2	4	hello yes i am going to kill you	2024-05-20 18:46:49
+----------------------
+id	email
+1	thierry.wang@outlook.fr
+----------------------
+id	name	lastname	email	total_price	id_product	id_visits	id_user	phone	token	review	id_transfer
+4	esgi sat	jknz	esgisat@gmail.com	285.00	53	26	1	0123213123	NULL	1	NULL
+5	esgi_sat	jknz	esgisat@gmail.com	475.00	53	26	1	0123213123	1634951399e8f2149d568f02ed7ce24a	NULL	NULL
+6	esgi sat	jknz	esgisat@gmail.com	475.00	53	27	1	0123213123	d3f69bef96b0af5dabb8ea68cb33359a	NULL	NULL
+7	esgi sat	jknz	esgisat@gmail.com	190.00	53	27	1	0123213123	ae87cd13bc3288d2853a02aa201ab972	NULL	NULL
+8	louvre	zdaz	admin@gmail.com	190.00	53	30	1	908989898	0eee0f710910c8bdb25063bf6d70eeaf	NULL	NULL
+9	mio	swedan	esgisat@gmail.com	285.00	53	34	1	908989898	6e1ea5e2851274f61df594dea5bf4f91	NULL	NULL
+10	mio	swedan	esgisat@gmail.com	285.00	53	34	1	908989898	96c22bd353c565036c157d825fbbfaf9	NULL	NULL
+28	azdz	dzadz	esgisat@gmail.com	1600.00	99999	99999	1	0123213123	NULL	NULL	4
+29	azdz	dzadz	esgisat@gmail.com	2100.00	99999	99999	1	0123213123	NULL	NULL	5
+30	azdz	dzadz	esgisat@gmail.com	2100.00	99999	99999	1	0123213123	NULL	NULL	5
+31	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+32	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+33	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+34	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+35	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+36	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+37	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+38	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+39	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+40	azdz	dzadz	esgisat@gmail.com	1200.00	99999	99999	1	0123213123	NULL	NULL	4
+42	louvre	swedan	antoine.maia05@gmail.com	475.00	53	100000	1	908989898	NULL	NULL	8
+43	louvre	swedan	antoine.maia05@gmail.com	285.00	53	100000	1	908989898	NULL	NULL	8
+----------------------
+id	description	date	id_user	likes	title
+13	azdazdz	2024-05-20 14:16:30	9	0	aadaz
+14	dazdaz	2024-05-20 18:38:45	4	0	adzaz
+----------------------
+id	id_order	stars	comment	created_at	name
+1	4	2	Bad tour	2024-05-03 17:02:15	Jill Doe
+2	5	1	Terrible tour	2024-05-03 17:02:19	Jack Doe
+3	6	5	Great tour	2024-05-03 17:02:22	John Doe
+4	7	4	Good tour	2024-05-03 17:02:23	Jane Doe
+5	8	3	Average tour	2024-05-03 17:02:24	Jim Doe
+6	4	5	nice tours	2024-05-05 09:30:01	stya&thirry
+----------------------
+id_product	tourname	description	title	image	price	number	map
+53	louvre	Visitez la Pyramide du Louvre	Le Louvre	/louvre_664b3e5e8e46a.jpg	95.00	1	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.795776361184!2d2.2859672768918564!3d48.86210460044457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffcab8c480d%3A0xb9fdbdaba8bbcbb9!2sEspl.%20du%20Trocad%C3%A9ro%2C%2075116%20Paris!5e0!3m2!1sru!2sfr!4v1716153172059!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgradehttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5882.2777036721545!2d2.3222483047403553!3d48.86199950658474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z0JvRg9Cy0YA!5e0!3m2!1sru!2sfr!4v1716153280294!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade
+61	versailles	Visitez le Château de Versailles	Château de Versailles	versailles1.jpg	95.00	1	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6125.579396358826!2d2.1182968061203344!3d48.799318063691054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67d94d7b14c75%3A0x538fcc15f59ce8f!2z0JLQtdGA0YHQsNC70Yw!5e0!3m2!1sru!2sfr!4v1716153082019!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade
+65	triomphe	Visitez l'Arc de Triomphe	Arc de Triomphe	triomphe1.jpg	115.00	1	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.365229365861!2d2.29245257689234!3d48.873795199621725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fec70fb1d8f%3A0xd9b5676e112e643d!2z0KLRgNC40YPQvNGE0LDQu9GM0L3QsNGPINCw0YDQutCw!5e0!3m2!1sru!2sfr!4v1716153126180!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade
+78	trocadero	Visitez le Trocadéro	Le Trocadéro	trocadero1.jpg	97.00	NULL	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.795776361184!2d2.2859672768918564!3d48.86210460044457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffcab8c480d%3A0xb9fdbdaba8bbcbb9!2sEspl.%20du%20Trocad%C3%A9ro%2C%2075116%20Paris!5e0!3m2!1sru!2sfr!4v1716153172059!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade
+80	musee_orsay	Visitez le musée d'Orsay	Musée d'Orsay	musee_orsay1.jpg	99999.00	NULL	https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.815979825449!2d2.3239864768917773!3d48.85996490059512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2bb630941b%3A0xd071bd8cb14423d8!2z0JzRg9C30LXQuSDQntGA0YHQtQ!5e0!3m2!1sru!2sfr!4v1716153024322!5m2!1sru!2sfr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade
+99999	catacombes	Découvrez les Catacombes de Paris	Catacombes de Paris	/Dummy Product_664b3eb1d81b1.jpg	125.00	NULL	NULL
+----------------------
+id	name	description	price
+3	cat	okay	400
+4	dog	good	200
+5	bird	bad	300
+7	rabbit	cool	350
+8	horse	500 horsepower	30000
+----------------------
+id	email	password	fname	lname	number	reset_token_hash	reset_token_expires_at	image	code_email	code_email_valid	agree	username	role	ban	tour_number
+1	user1@example.com	password1	John	Doe	123456789	NULL	NULL	image1.png	NULL	1	0	Liza	NULL	0	NULL
+4	hag@gmail.com	bd68de5546ce9bb61e8249386c1db20181c11d14cbf15086fd11bf8c2a73077a	ssqcsq	jknz	NULL	321d6e1ab760270256d0147bf033fe0edbc1d829349a65b5e4cd0e2165b79994	2024-05-01 17:15:41	image4.jpg	415422132	0	0	Ahmed	admin	NULL	NULL
+5	boussardsatya@gmail.com	5fb0588d0a8d27d19917905ccbd34c3d8992b4faf69881a790b1b140a9b18b17	Satya	Boussard	NULL	NULL	NULL	image5.png	355627528	0	0	Meerkat	guide	0	NULL
+7	thierry.wang@outlook.fr	aa3d2fe4f6d301dbd6b8fb2d2fddfb7aeebf3bec53ffff4b39a0967afa88c609	Thie	rry	NULL	NULL	NULL	image7.png	NULL	1	0	Thierry	guide	0	NULL
+9	esgisat@gmail.com	ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f	ahmad	swedan	NULL	NULL	NULL	image9.jpg	NULL	1	0	hag19	guide	0	NULL
+----------------------
+id	places	date	time	username	id_product	places_b
+19	7	2024-04-09	13:30:00	Liza	53	NULL
+20	7	2024-04-10	13:30:00	Liza	53	NULL
+21	7	2024-04-10	12:00:00	Liza	53	NULL
+22	7	2024-04-10	13:30:00	Liza	53	NULL
+23	400	2024-04-12	16:00:00	Liza	53	NULL
+24	7	2024-04-15	13:30:00	Liza	53	NULL
+26	-1	2024-04-22	13:30:00	Meerkat	53	5
+27	0	2024-04-22	13:30:00	Thierry	53	2
+28	12	2024-04-01	12:12:00	NULL	53	NULL
+29	1	2024-04-01	12:23:00	Meerkat	53	NULL
+30	1	2024-04-30	15:38:00	Meerkat	53	2
+31	3	2024-05-03	11:00:00	Meerkat	53	NULL
+32	30	2024-05-31	15:00:00	Meerkat	53	NULL
+33	8	2024-05-07	13:30:00	Meerkat	53	NULL
+34	0	2024-05-22	13:30:00	hag19	53	3
+99999	0	NULL	NULL	hag19	99999	0
+100000	2	2024-05-25	18:00:00	hag19	53	3
+----------------------

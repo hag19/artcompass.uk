@@ -1,0 +1,853 @@
+@font-face {
+  font-family: "Karla";
+  src: url("../../accuel/font/Karla-Bold.woff2") format("woff2"),
+    url("../../accuel/font/Karla-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../../accuel/font/Karla-Italic.woff2") format("woff2"),
+    url("../../accuel/font/Karla-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../../accuel/font/Karla-Regular.woff2") format("woff2"),
+    url("../../accuel/font/Karla-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../../accuel/font/Karla-BoldItalic.woff2") format("woff2"),
+    url("../../accuel/font/Karla-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FingerPaint";
+  src: url("../../accuel/font/FingerPaint-Regular.woff") format("woff"),
+    url("../../accuel/font/FingerPaint-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+::selection {
+  background: rgb(0 0 0 / 15%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Karla", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.acm_nav {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dark_mode {
+  border: none;
+  background-color: #74949f;
+}
+
+header,
+footer {
+  background-color: #74949f;
+  padding: 10px;
+  color: white;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  padding: 1em;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding: 30px;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .table-container {
+    overflow: auto;
+  }
+}
+
+/* ------------------------------------------------------ */
+
+.addProd {
+  text-align: center;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+  font-family: "FingerPaint", sans-serif;
+}
+
+.addForm {
+  background-color: #526e7f;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  color: white;
+  box-shadow: 0px 6px 5px #333333;
+}
+
+.inp {
+  display: block;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-right: 8vw;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.add input {
+  margin-left: 4.5rem;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #6398a7;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.deletePhoto {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #2f3853;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.imgt {
+  object-fit: contain;
+}
+
+.log {
+  max-width: 40rem;
+  max-height: 10rem;
+  background-color: #f6f6f6;
+  overflow: auto;
+  padding: 0.3rem;
+}
+
+.usercard {
+  display: flex;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+.uCard1 {
+  margin: 0.5rem;
+  align-self: center;
+  margin-left: 1rem;
+}
+
+.uCard2 {
+  margin: 1rem;
+  background-color: #526e7f;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 50px;
+  border: 1px solid #2f3853;
+}
+
+.uCard3 {
+  margin-left: 4rem;
+}
+
+.userPanel {
+  margin-top: 3rem;
+}
+
+.headAdmin {
+  color: red;
+  font-weight: bold;
+  align-self: center;
+  margin: 1.2rem;
+  border: none;
+}
+
+.deleteAcc {
+  background-color: #a73434;
+  border: 1px solid #382029;
+  font-weight: bold;
+}
+
+.odd {
+  background-color: #f6f6f6;
+}
+
+.even {
+  background-color: #ededed;
+}
+
+.exportButton {
+  margin-bottom: 2rem;
+}
+
+.exportButton input {
+  background-color: #526e7f;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.adminSection {
+  border: 2px solid #cccccc;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.adminPanel {
+  display: flex;
+  justify-content: center;
+}
+
+.tourColumn {
+  display: flex;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  overflow: auto;
+  max-width: inherit;
+}
+
+.tourSpacing {
+  margin-left: 1rem;
+}
+
+.newsPageTitle {
+  font-family: "Fingerpaint", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: -1rem;
+}
+
+.newsTitle {
+  height: 3.5rem;
+  width: 100%;
+  padding-bottom: 1.3rem;
+  padding-left: 0.5rem;
+}
+
+.newsletter {
+  width: 100%;
+  height: 11rem;
+  padding-bottom: 8.8rem;
+  padding-left: 0.5rem;
+}
+
+.newsCaption {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.newsletterSubmit {
+  color: white;
+  background-color: #526e7f;
+  border-radius: 50px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+.newsletterHistory {
+  background-color: #f6f6f6;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  max-height: 18rem;
+  overflow: auto;
+}
+
+.blogPageTitle {
+  font-family: "FingerPaint", sans-serif;
+  box-shadow: 0px 2px 0px gray;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.blog {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 0px 2px 0px gray;
+}
+
+.blogDesc {
+  max-width: 25rem;
+}
+
+.blogDescription {
+  font-size: 1.2rem;
+  max-height: 10rem;
+  overflow: auto;
+}
+
+.blogDate {
+  color: gray;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.blogImg {
+  margin-left: 3rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.increment {
+  display: none;
+}
+
+.eEgg {
+  border: none;
+  background-color: white;
+  text-align: center;
+  margin-left: 25rem;
+}
+
+.nuhHuh {
+  font-size: 1.5rem;
+  font-family: "Fingerpaint", sans-serif;
+  font-weight: bold;
+}
+
+.smart {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.hiddenGallery img {
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+
+.classified {
+  display: none;
+}
+
+.adminAddPost {
+  background-color: #526e7f;
+  color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.adminBlogPost {
+  display: flex;
+  box-shadow: 0px 2.5px 0px silver;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.adminBlogDesc {
+  font-size: 1.2rem;
+  max-width: 20rem;
+  max-height: 10rem;
+  overflow: auto;
+}
+
+.adminBlogTitle {
+  max-width: 20rem;
+}
+
+.adminBlogDate {
+  color: silver;
+  font-size: 0.8rem;
+}
+
+.adminBlogImage {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.adminBlogImage img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* ------------------------------------------------ */
+
+.friendPage {
+  margin-left: 20rem;
+  margin-top: 3rem;
+}
+
+.friendProfile {
+  font-family: "FingerPaint", sans-serif;
+}
+
+.friendHeader {
+  display: flex;
+}
+
+.friendInteraction {
+  display: flex;
+}
+
+.friendName {
+  margin-top: 0.5rem;
+}
+
+.pfp {
+  margin-left: 3rem;
+}
+
+.pfp label img {
+  border-radius: 50px;
+}
+
+.friendUsername {
+  margin-right: 12rem;
+  margin-left: 1rem;
+}
+
+.friendInteraction button {
+  margin-top: 1.7rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: #526e7f;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50px;
+}
+
+.friendPost {
+  max-width: 20rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.postsRow {
+  display: flex;
+}
+
+.friendPostTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.friendPostDate {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.friendPostImg {
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0.5rem;
+}
+
+.userCols {
+  display: flex;
+}
+
+.userInfo {
+  margin: 1rem;
+  overflow: auto;
+  padding-right: 2rem;
+  box-shadow: 2px 0px 0px #cfcfcf;
+}
+
+.userName {
+  margin-bottom: 0.5rem;
+}
+
+.userFirstName {
+  margin-bottom: -0.1rem;
+}
+
+.userFirstName {
+  margin-bottom: -0.2rem;
+}
+
+.friendPostComments {
+  max-height: 10rem;
+  overflow: auto;
+  border: 1px solid grey;
+}
+
+.friendPostComment {
+  margin: 0.5rem;
+}
+
+.comment {
+  margin: 0.5rem;
+}
+
+table {
+  padding-right: 5rem;
+}
+
+.acmFriendPost {
+  max-width: 20rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.acmPostsRow {
+  display: flex;
+}
+
+.acmFriendPostTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.acmPostImg {
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0.5rem;
+}
+
+.acmFriendPostDate {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.acmPostComments {
+  max-height: 10rem;
+  overflow: auto;
+  border: 1px solid grey;
+}
+
+.acmPostComment {
+  margin: 0.5rem;
+}
+
+.userRecommendation {
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.searchBar {
+  border: 3px solid #74949f;
+  border-radius: 50px;
+  padding: 1rem;
+  margin-left: -1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 4.5rem;
+}
+
+.act_nav {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.acmTitle {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  margin-top: 3.5rem;
+  font-weight: bold;
+  font-family: "FingerPaint", sans-serif;
+  margin-bottom: -5rem;
+}
+
+.pfpRow {
+  display: flex;
+}
+
+.pfpRowSpacing {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.communitySearchBar {
+  margin-left: 60rem;
+}
+
+.calendarC {
+  text-align: center;
+}
+
+.editTour {
+  display: flex;
+  box-shadow: 0px 2px 0px gray;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.editTourDesc {
+  font-size: 1.1rem;
+}
+
+.editTourPrice {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.editTourImg {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.editTourForm {
+  margin-top: 10.5rem;
+  margin-left: 4rem;
+}
+
+.editTourGroup {
+  margin-left: 18rem;
+}
+
+.editTourForm input {
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0.5rem;
+  color: white;
+  background-color: #526e7f;
+  font-weight: bold;
+}
+
+.editPage {
+  margin-top: 3rem;
+}
+
+.editPageDescription {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.editPagePrice {
+  font-size: 0.8rem;
+  color: gray;
+  margin-left: 0.5rem;
+}
+
+.editPageImage {
+  border-radius: 50px;
+}
+.mainpfp {
+  border-radius: 50px;
+}
+
+/* ----------------------------------------- */
+
+.blogPostImg {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.blogPostTitle {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.blogCommentCol {
+  overflow: auto;
+  max-height: 20rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+.blogPostTitle {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.blogPostDescription {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.blogPostDate {
+  text-align: center;
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.blogCommentDate {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 0.8rem;
+}
+
+.friendMainCommentSent {
+  text-decoration: none;
+  color: black;
+}
+
+.friendMainCommentDate {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 12rem;
+}
+
+.like button {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+}
+
+.postcomment {
+  margin-left: 11.5rem;
+}
+
+.friendPostImgGroup {
+  display: flex;
+  align-items: center;
+  max-width: 270px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  margin: 10px;
+  border: solid thin;
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}

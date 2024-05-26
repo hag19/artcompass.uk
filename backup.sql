@@ -1,6 +1,6 @@
 create DATABASE IF NOT EXISTS site;
 USE site;
-create USER IF NOT EXISTS hag@'%' IDENTIFIED BY 'hag19';
+create USER IF NOT EXISTS hag@'%' IDENTIFIED BY 'fan_club';
 GRANT ALL PRIVILEGES ON site.* TO hag@'%';
 
 CREATE TABLE IF NOT EXISTS blog (

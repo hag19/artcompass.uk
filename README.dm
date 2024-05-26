@@ -1,24 +1,7 @@
-# Implementation of Social Media and E-commerce Features
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-    - [Social Media](#social-media)
-    - [E-commerce](#e-commerce)
-3. [Administrative Backend](#administrative-backend)
-4. [Full-Stack Development](#full-stack-development)
-5. [Platform Security](#platform-security)
-6. [Source Code Management](#source-code-management)
-7. [Installation](#installation)
-8. [Usage](#usage)
-9. [Contributing](#contributing)
-10. [License](#license)
-
 ## Introduction
 This project aims to integrate social media and e-commerce functionalities using object-oriented programming techniques. It is designed to serve both end users and site administrators, providing powerful and secure tools for interacting with the platform.
 
 ## Features
-
 ### Social Media
 - **Following**: Users can follow other profiles.
 - **Messaging**: Private messaging between users.

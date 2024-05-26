@@ -36,8 +36,4 @@ The project is developed using a full-stack approach with the following technolo
  Source Code Management
 - GitHub: Used for storing and distributing code.
 
- Installation
-To install and set up the project, follow these steps:
-1. Clone the repository from GitHub: `git clone https://github.com/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-3. Install the necessary dependencies.
+

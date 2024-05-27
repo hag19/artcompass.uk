@@ -233,10 +233,22 @@ class friends{
         
         $posts = [];
 
-        foreach($result as $row){
-            $posts[] = $this->getPost($row['id_user_m']);
+        foreach ($result as $row) {
+            $userPosts = $this->getPost($row['id_user_m']);
+            $posts = array_merge($posts, $userPosts);
         }
-        return $posts;
+        return $this->shuffle_assoc($posts); // Shuffle all posts together once
+    }
+    private function shuffle_assoc($list) {
+        if (!is_array($list)) return $list;
+
+        $keys = array_keys($list);
+        shuffle($keys);
+        $randomized = array();
+        foreach ($keys as $key) {
+            $randomized[$key] = $list[$key];
+        }
+        return $randomized;
     }
     
 public function getFriends($search) {
@@ -255,7 +267,7 @@ public function getFriends($search) {
             if($result){
                 $this->removeFriend($result['id']);
                 echo 'noice';
-            }else{
+            }else{ 
                 $this->addFriend($id);
                 echo 'success';
             } 

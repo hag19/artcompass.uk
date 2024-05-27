@@ -35,8 +35,7 @@ $blog = new BlogHandler($pdo);
         <?php
 
         $cols = 0;
-        foreach ($posts as $postGroup) {
-            foreach ($postGroup as $post) {
+            foreach ($posts as $post) {
                 $words = explode(' ', $post['title']);
                 $title_n = implode('', $words);
                 $dir = "../img/" . $title_n . '_' . $post['id_user'];
@@ -116,7 +115,6 @@ $blog = new BlogHandler($pdo);
                 }
                 ++$cols;
             }
-        }
         ?>
         <script src="../main.js"></script>
     </main>

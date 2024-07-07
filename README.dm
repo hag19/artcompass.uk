@@ -51,3 +51,5 @@ We welcome contributions! To contribute:
 3. Make your changes and commit them: `git commit -m 'Add new feature'`
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Create a pull request.
+
+thanks for reading

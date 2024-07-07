@@ -1,12 +1,12 @@
 <?php
     error_reporting(E_ALL);
-    include('/includes/smart_check.php');
-    session_start();
+    ini_set('display_errors', 1);
+     include('includes/smart_check.php');
     if($_SESSION["user"] != "admin"){
         header("location: /admin/users/smart.php?message=Thought_you_were_smart_there,_huh?");
         exit;
     }
-    require '../../lang.php';
+    require '../lang.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
